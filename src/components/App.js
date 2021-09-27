@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Nav from './Nav'
 import history from '../history';
+import './css/site.css';
 
 const App = () => {
     return (

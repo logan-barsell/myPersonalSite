@@ -1,0 +1,36 @@
+.home {
+    min-height: 544px;
+}
+.masthead h1.ui.header {
+      margin-top: 3em;
+      margin-bottom: 0em;
+      font-size: 4em;
+      font-weight: normal;
+}
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: lighter;
+}
+
+span.ui.header {
+    font-weight: normal;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 700px) {
+    .home {
+        min-height: 275px;
+    }
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 3em;
+    }
+    .masthead h2{
+        font-size: 1.5em;
+        margin-top: 0.5em;
+    }
+
+}
+
