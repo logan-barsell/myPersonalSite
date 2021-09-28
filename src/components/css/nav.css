@@ -1,9 +1,21 @@
+.nav {
+  margin-top: 33px;
+}
+
+.navBar button {
+  display: none;
+  margin-top: 21px;
+}
+
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 500px) {
-    .navBar .item,
-    .navBar.menu {
+@media only screen and (max-width: 575px) {
+    .navBar .nav,
+    .navBar .nav .nav-link {
       display: none;
+    }
+    .navBar button {
+      display: block;
     }
 
 }
