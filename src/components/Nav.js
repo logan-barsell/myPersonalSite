@@ -5,7 +5,7 @@ import './css/nav.css'
 const Nav = () => {
 
     return (
-        <nav className="navBar navbar navbar-expand-md navbar-light bg-light">
+        <nav className="navBar navbar navbar-expand-md navbar-light bg-light rounded-bottom">
             {/* nav nav-pills flex-column flex-sm-row  */}
             <div className="container-fluid">
                 <button 
@@ -34,19 +34,19 @@ const Nav = () => {
                         Home
                     </NavLink>
                     <NavLink 
-                        to="/Skills"
+                        to="/skills"
                         className="flex-sm-fill text-sm-center nav-link"
                     >
                         Skills
                     </NavLink>
                     <NavLink 
-                        to="/Portfolio"
+                        to="/portfolio"
                         className="flex-sm-fill text-sm-center nav-link"
                     >
                         Portfolio
                     </NavLink>
                     <NavLink 
-                        to="/Contact"
+                        to="/contact"
                         className="flex-sm-fill text-sm-center nav-link"
                     >
                         Contact

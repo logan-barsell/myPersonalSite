@@ -1,20 +1,32 @@
-.home {
-    min-height: 544px;
+.masthead {
+    min-height: 253px;
 }
 .masthead h1 {
       margin-top: 3em;
       margin-bottom: 0em;
       font-size: 4em;
-      font-weight: normal;
+      font-weight: 300;
 }
 .masthead h2 {
     font-size: 1.7em;
     font-weight: lighter;
 }
 
-span {
-    font-weight: normal;
+.masthead svg {
+    margin-bottom: 4px;
+    margin-left: 10px;
 }
+
+.aboutMe {
+    min-height: 500px;
+}
+
+.aboutMe h3 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+
 
 
 /* MEDIA QUERIES */

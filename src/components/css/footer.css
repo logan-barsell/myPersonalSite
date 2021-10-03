@@ -1,0 +1,11 @@
+.footer {
+    margin-top: 33px;
+}
+
+.footer a {
+    color: #212529;
+}
+
+.footer a:hover {
+    color: #343a40;
+}

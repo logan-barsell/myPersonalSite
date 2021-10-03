@@ -2,6 +2,20 @@
   margin-top: 33px;
 }
 
+.nav-pills .nav-link {
+  font-weight: lighter;
+  font-size: 1.3em;
+  color: grey;
+}
+
+.nav-link:hover {
+  color: darkgrey;
+}
+
+.nav-pills .nav-link.active {
+  background-color: grey;
+}
+
 .navbar-collapse {
   margin-top: 0px;
 }
