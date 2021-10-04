@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
 
             <div className="aboutMe bg-dark text-white text-center rounded row justify-content-center">
-                <h3 className="d-flex align-items-center justify-content-center">About Me</h3>
+                <h3 className="d-flex align-items-center justify-content-center">What I Do</h3>
                 <div className="col-6 border border-light rounded">
                     <img src="..." class="img-fluid" alt="..."></img>
                 </div>

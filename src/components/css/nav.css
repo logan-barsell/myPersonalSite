@@ -5,19 +5,27 @@
 .nav-pills .nav-link {
   font-weight: lighter;
   font-size: 1.3em;
-  color: grey;
+  color: #212529;
 }
 
 .nav-link:hover {
-  color: darkgrey;
+  color: #343a40;
 }
 
 .nav-pills .nav-link.active {
-  background-color: grey;
+  background-color: #212529;
 }
 
 .navbar-collapse {
   margin-top: 0px;
+}
+
+.navbar-toggler {
+  box-shadow: none;
+}
+
+.navbar-toggler.btn-outline-dark {
+  box-shadow: none;
 }
 
 /* MEDIA QUERIES */
